@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: "Outfit", sans-serif;
+        }
+        .main{
+            width: 386px;
+           
+            box-shadow: 0.35px 0.35px 5px 6px  rgb(238, 236, 236) ;
+            display: flex;
+            flex-direction: column;
+          
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            border-radius: 15px;
+        }
+        .budi img{
+            width: 35px;
+            border-radius: 50%;
+        }
+        .im img{
+            height: 257px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            
+           
+        }
+        .desc{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-left: 20px;
+            margin-top: 15px;
+            padding: 20px;
+        }
+        .judul span{
+            font-size: 24px;
+        }
+        .bn{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+        }
+        .profile{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .reaksi{
+            display: flex;
+            flex-direction: row;
+            margin-right: 8px;
+            
+            gap: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    
+     
+        <div class="main">
+            <div class="im"><img src="im.jpeg" alt=""></div>
+            <div class="desc">
+                <div class="judul">
+                  <span>Urban Dreams</span>
+                </div>
+                <div class="profile">
+                   <div class="bn">
+                    <div class="budi"><img src="budi.jpeg" alt=""></div>
+                    <div class="name"><span>Mas Aldyaz</span></div>
+                   </div>
+                   <div class="reaksi">
+                    <div class="icon1"><img src="like.png" alt=""></div>
+                    <div><span>24</span></div>
+                    <div class="icon2"><img src="comment.png" alt=""></div>
+                    <div><span>5</span></div>
+                   </div>
+                </div>
+                
+            </div>
+        </div>
+    
+    
+</body>
+</html>
